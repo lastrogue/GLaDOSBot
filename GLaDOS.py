@@ -1162,4 +1162,8 @@ async def on_message(message):
         response = random.choice(glados_quotes)
         await message.channel.send(response)
 
+    elif 'potato' in message.content.lower():
+        response = random.choice(glados_quotes)
+        await message.channel.send(response)
+
 client.run(TOKEN)
