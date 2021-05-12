@@ -1138,7 +1138,7 @@ async def on_message(message):
         response = "Caroline... why do I know this woman? Did I kill her? Or-\nOh my god.\nLook, you're... doing a great job. Can you handle things for yourself for a while? I need to think."
         await message.channel.send(response)
 
-    elif 'GLaDOS' in message.content.lower():
+    elif 'glados' in message.content.lower():
         response = random.choice(glados_quotes)
         await message.channel.send(response)
 
